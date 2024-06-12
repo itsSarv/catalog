@@ -41,7 +41,6 @@ const Hero = () => {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
-          //  position: 'absolute',
             alignItems: 'center',
             height: '87vh'
         }}>
