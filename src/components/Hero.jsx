@@ -1,6 +1,8 @@
 import React from 'react'
 import Nav from './Nav'
 import { FaArrowRight } from "react-icons/fa6";
+import Footer from './Footer';
+import Contact from './Contact';
 
 const Hero = () => {
   return (
@@ -68,6 +70,8 @@ const Hero = () => {
             }}>Why Catalog? <FaArrowRight/></button>
             </div>
     </div>
+    <Contact/>
+    <Footer/>
     </div>
   )
 }
